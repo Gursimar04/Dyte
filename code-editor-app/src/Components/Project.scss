@@ -1,0 +1,33 @@
+.pr{
+    color: black;
+    margin-left: 1em;
+    margin-top: 0.25em;
+
+    .fileName{
+        cursor: pointer;
+        position: relative;
+        .name{
+            position: absolute;
+            top:0.1em;
+            left:1.1em;
+
+        }
+    }
+    .files{
+        margin-top: 0.3em;
+        .file{
+            margin-left: 1em;
+            position: relative;
+            cursor: pointer;
+            width: 100%;
+            .fileName{
+                position: absolute;
+                top:0em;
+                left:1.4em;
+            }
+        }
+        :hover{
+            background-color: rgb(238, 235, 235);;
+        }
+    }
+}

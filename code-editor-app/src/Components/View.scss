@@ -1,0 +1,20 @@
+.liveView{
+    width:100%;
+    position: relative;
+    padding-left: 0.5em;
+}
+
+.resizer {
+    /* All resizers are positioned absolutely inside the element */
+    position: absolute;
+    top: 0;
+    cursor: row-resize;
+    height: 5px;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.border{
+    border-top: 0.1em solid rgb(240, 240, 240);
+}

@@ -1,0 +1,110 @@
+.editor{
+    min-width: 10em;
+    height: 100%;
+    width:85vw;
+    background-color: white;
+    min-height: 5em;
+    position: relative;
+    color:black;
+    
+    .path{
+      padding:0.1em 1em;
+      background-color: rgb(219, 219, 219);
+      font-size: 1em;
+      font-weight: 600;
+    }
+    .code-input,
+    .code-output {
+        position: absolute;
+        top: 1.5em;
+        padding-left: 1em;
+        left: 0.1em;
+        width:83vw;
+        height: 61.3vh;
+        background-color: white;
+        color:black;
+        border: none;
+        background: transparent;
+        white-space: pre-wrap;
+        line-height: 1.5em;
+        margin: 0;
+        font-size: 1.2em;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        white-space: initial;
+        font-weight: 100;
+        white-space: normal !important;
+        word-break: break-word !important;
+        overflow: hidden;
+}
+
+.code-input {
+  opacity: 1;
+  caret-color: black;
+  margin: 0;
+  resize: none;
+  color:white;
+  white-space: initial;
+  border: none;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none;
+  overflow: hidden;
+}
+
+.code-output {
+  pointer-events: none;
+  margin: 0;
+  z-index: 3;
+}
+code {
+  position: absolute;
+  font-size: 1em;
+  line-height: 1.5em;
+  top: -0.25em;
+  left: 0.05em;
+  margin: 0;
+  padding-left: 0.9em;
+  display: block;
+  text-shadow: none;
+  color:black;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+pre{
+  background-color: transparent;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+  color:black;
+  text-shadow: none;
+  font-family: monospace;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  overflow: hidden;
+}
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
+  background: none;
+}
+
+
+}
